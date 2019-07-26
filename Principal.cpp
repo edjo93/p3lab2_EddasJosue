@@ -59,7 +59,9 @@ int main(){
 		switch(*eleccion){
 			case'a':
 				{
-					
+					cout<<"\nprincipal: "<<endl;
+					m->imprimir_matriz();
+					cout<<endl;
 					//segundo objeto matriz
 					int filas;
 					int columnas;
@@ -81,13 +83,18 @@ int main(){
 					m2.imprimir_matriz();
 					bit.agregar("suma",m->suma(m2));
 					//m2.liberar_matriz();
+					
+					cout<<"\nresultado m1 "<<endl;
+					m->imprimir_matriz();
 				}
 				
 				
 				break;
 			case'b':
 				{
-					
+					cout<<"\nprincipal: "<<endl;
+					m->imprimir_matriz();
+					cout<<endl;
 					//segundo objeto matriz
 					int filas;
 					int columnas;
@@ -110,10 +117,17 @@ int main(){
 					bit.agregar("resta",m->resta(m2));
 					//m2.liberar_matriz();
 					
+					cout<<"\nresultado m1 "<<endl;
+					m->imprimir_matriz();
+					
 				}	
 				break;
 			case'c'	:
 				{
+					
+					cout<<"\nprincipal: "<<endl;
+					m->imprimir_matriz();
+					cout<<endl;
 					int num;
 					cout<<"\ningrese numero >=0: ";
 					cin>>num;
@@ -123,6 +137,10 @@ int main(){
 					}
 					m->multiplicacion(num);
 					bit.agregar("multiplicacion",true);
+					
+					cout<<"\nresultado m1 "<<endl;
+					m->imprimir_matriz();
+					
 				}
 				break;
 			case'd'	:
