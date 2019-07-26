@@ -22,6 +22,7 @@
 					}else{
 						cout<<"failed";
 					}
+					cout<<endl;
 				}
 			}	
 			void eliminar_ultimo(){
