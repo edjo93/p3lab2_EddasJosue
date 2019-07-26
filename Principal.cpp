@@ -53,7 +53,7 @@ int main(){
 	
 	//new menu
 	do{
-		cout<<"\na.suma\nb.resta\nc.multiplicacion\ns-salir\nd.eliminar ultimo registro\ne.vaciar registros\nf.imprimir registros\n?:";
+		cout<<"\na.suma\nb.resta\nc.multiplicacion\nd.eliminar ultimo registro\ne.vaciar registros\nf.imprimir registros\ns-salir?:";
 		cin>>choose;
 		eleccion=&choose;
 		switch(*eleccion){
@@ -116,6 +116,7 @@ int main(){
 				{
 					int num;
 					cout<<"\ningrese numero >=0: ";
+					cin>>num;
 					while(num<0){
 						cout<<"error/ingrese numero>=0";
 						cin>>num;

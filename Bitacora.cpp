@@ -15,6 +15,7 @@
 			}
 			void print(){
 				for(int i=0;i<stringContent.size();i++){//we can use either size
+					cout<<endl;
 					cout<<stringContent.at(i)<<":";
 					if(boolContent.at(i)==1 ){
 						cout<<"exito" ;
